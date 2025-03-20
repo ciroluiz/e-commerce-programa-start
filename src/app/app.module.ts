@@ -4,12 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent, // Declaração do componente principal
     // Outros componentes declarados aqui
-    HeaderComponent, // Declaração do componente de cabeçalho
+    HeaderComponent, FooterComponent, // Declaração do componente de cabeçalho e rodapé
   ],
   imports: [
     BrowserModule, // Necessário para aplicações web
