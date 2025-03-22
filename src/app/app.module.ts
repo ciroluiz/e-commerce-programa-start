@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -10,13 +10,17 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [
     AppComponent, // Declaração do componente principal
     // Outros componentes declarados aqui
-    HeaderComponent, FooterComponent, // Declaração do componente de cabeçalho e rodapé
+    HeaderComponent,
+    FooterComponent, // Declaração do componente de cabeçalho e rodapé
   ],
   imports: [
     BrowserModule, // Necessário para aplicações web
     AppRoutingModule, // Importa o módulo de rotas configurado em app-routing.module.ts
   ],
-  providers: [], // Serviços injetáveis (caso aplicável)
+  // Serviços injetáveis (caso aplicável)
+  providers: [
+    { provide: LOCALE_ID, useValue: 'pt-BR' }, // Define o locale padrão
+  ],
   bootstrap: [AppComponent], // Componente inicial
 })
 export class AppModule {}
