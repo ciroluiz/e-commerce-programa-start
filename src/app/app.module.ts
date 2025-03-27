@@ -1,5 +1,6 @@
 import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,6 +19,7 @@ import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.componen
   imports: [
     BrowserModule, // Necessário para aplicações web
     AppRoutingModule, // Importa o módulo de rotas configurado em app-routing.module.ts
+    MatSnackBarModule, // Importa o módulo de snackbar do Angular Material
   ],
   // Serviços injetáveis (caso aplicável)
   providers: [
