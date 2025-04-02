@@ -42,3 +42,18 @@
 .contact-form button:disabled:hover {
   filter: none;
 }
+
+.valid {
+  border: 2px solid green;
+}
+
+.invalid {
+  border: 2px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+  display: block;
+}
