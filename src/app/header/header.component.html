@@ -7,31 +7,47 @@
     <nav class="main-header__menu">
       <ul>
         <li>
-          <a>Produtos</a>
+          <a [routerLink]="['/produtos']">Produtos</a>
         </li>
         <li>
           <a>
             <i class="fa-solid fa-cart-shopping"></i>
-            Carrinho
+            <a [routerLink]="['/carrinho']">Carrinho</a>
             <span class="badge-carrinho">{{
               carrinhoService.obtemCarrinho().length
             }}</span>
           </a>
         </li>
         <li>
-          <a>Contato</a>
+          <a [routerLink]="['/contato']">Contato</a>
         </li>
         <li>
-          <a><i class="fa-brands fa-facebook fa-bounce"></i></a>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            aria-label="Facebook"
+          >
+            <i class="fa-brands fa-facebook fa-bounce"></i
+          ></a>
         </li>
         <li>
-          <a><i class="fa-brands fa-twitter fa-bounce"></i></a>
+          <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+            <i class="fa-brands fa-twitter fa-bounce"></i
+          ></a>
         </li>
         <li>
-          <a><i class="fa-brands fa-instagram fa-bounce"></i></a>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <i class="fa-brands fa-instagram fa-bounce"></i
+          ></a>
         </li>
         <li>
-          <a><i class="fa-brands fa-linkedin fa-bounce"></i></a>
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin fa-bounce"></i
+          ></a>
         </li>
       </ul>
     </nav>
