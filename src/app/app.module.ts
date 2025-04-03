@@ -1,11 +1,13 @@
 import { LOCALE_ID, NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { BrowserModule } from '@angular/platform-browser';
 
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
+import { BarraPesquisaComponent } from './barra-pesquisa/barra-pesquisa.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.component';
 
 @NgModule({
@@ -15,11 +17,13 @@ import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.componen
     HeaderComponent,
     FooterComponent,
     NaoEncontradaComponent,
+    BarraPesquisaComponent,
   ],
   imports: [
     BrowserModule, // Necessário para aplicações web
     AppRoutingModule, // Importa o módulo de rotas configurado em app-routing.module.ts
     MatSnackBarModule, // Importa o módulo de snackbar do Angular Material
+    FormsModule, // Importa o módulo de formulários do Angular
   ],
   // Serviços injetáveis (caso aplicável)
   providers: [

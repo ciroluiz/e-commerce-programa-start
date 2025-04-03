@@ -1,4 +1,4 @@
-<section class="product-list">
+<section *ngIf="produtos && produtos.length > 0; else noProducts" class="product-list">
   <div class="product-list__card" *ngFor="let produto of produtos">
     <a routerLink="/produtos/{{ produto.id }}" class="product-list__link">
       <img [src]="produto.imagem" [alt]="produto.descricao" />
@@ -11,3 +11,8 @@
     </a>
   </div>
 </section>
+
+<!-- Template para exibir mensagem quando não houver produtos -->
+<ng-template #noProducts>
+  <p class="no-products-message">Nenhum produto encontrado.</p>
+</ng-template>

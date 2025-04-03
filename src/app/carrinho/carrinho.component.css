@@ -60,3 +60,10 @@ input {
 .buy-button:hover {
   filter: brightness(0.9);
 }
+
+.no-products-message {
+  font-size: 44px;
+  color: var(--gray);
+  font-weight: 700;
+  padding: 30px 0 0 0;
+}
