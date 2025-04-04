@@ -18,7 +18,7 @@ export const produtos: IProduto[] = [
     preco: 439.0,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 10,
-    imagem: '/mouse-3.jpg',
+    imagem: './mouse-3.jpg',
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ export const produtos: IProduto[] = [
     preco: 1200.5,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 10,
-    imagem: '/monitor-1.jpg',
+    imagem: './monitor-1.jpg',
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ export const produtos: IProduto[] = [
     preco: 749.99,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 10,
-    imagem: '/teclado-1.jpg',
+    imagem: './teclado-1.jpg',
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ export const produtos: IProduto[] = [
     preco: 599.99,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 10,
-    imagem: '/fone-de-ouvido-2.jpg',
+    imagem: './fone-de-ouvido-2.jpg',
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ export const produtos: IProduto[] = [
     preco: 299.99,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 10,
-    imagem: '/fone-de-ouvido-1.jpg',
+    imagem: './fone-de-ouvido-1.jpg',
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ export const produtos: IProduto[] = [
     preco: 399.99,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 10,
-    imagem: '/fone-de-ouvido-3.jpg',
+    imagem: './fone-de-ouvido-3.jpg',
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ export const produtos: IProduto[] = [
     preco: 499.99,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 10,
-    imagem: '/hd.jpg',
+    imagem: './hd.jpg',
   },
   {
     id: 8,
@@ -74,7 +74,7 @@ export const produtos: IProduto[] = [
     preco: 18449.99,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 10,
-    imagem: '/placa-video.jpg',
+    imagem: './placa-video.jpg',
   },
   {
     id: 9,
@@ -82,7 +82,7 @@ export const produtos: IProduto[] = [
     preco: 1000,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 10,
-    imagem: '/processador.jpg',
+    imagem: './processador.jpg',
   },
   {
     id: 10,
@@ -90,7 +90,7 @@ export const produtos: IProduto[] = [
     preco: 2500,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 10,
-    imagem: '/laptop-1.jpg',
+    imagem: './laptop-1.jpg',
   },
   {
     id: 11,
@@ -98,7 +98,7 @@ export const produtos: IProduto[] = [
     preco: 4500,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 10,
-    imagem: '/laptop-2.jpg',
+    imagem: './laptop-2.jpg',
   },
   {
     id: 12,
@@ -106,7 +106,7 @@ export const produtos: IProduto[] = [
     preco: 20,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 20,
-    imagem: '/mouse-1.png',
+    imagem: './mouse-1.png',
   },
   {
     id: 13,
@@ -114,7 +114,7 @@ export const produtos: IProduto[] = [
     preco: 200,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 20,
-    imagem: '/mouse-2.jpg',
+    imagem: './mouse-2.jpg',
   },
   {
     id: 14,
@@ -122,7 +122,7 @@ export const produtos: IProduto[] = [
     preco: 50,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 20,
-    imagem: '/mouse-4.jpg',
+    imagem: './mouse-4.jpg',
   },
   {
     id: 15,
@@ -130,6 +130,6 @@ export const produtos: IProduto[] = [
     preco: 159.99,
     descricaoPreco: 'À vista no PIX',
     quantidadeDisponivel: 20,
-    imagem: '/teclado-2.jpg',
+    imagem: './teclado-2.jpg',
   },
 ];
